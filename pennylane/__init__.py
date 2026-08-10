@@ -173,7 +173,7 @@ from pennylane import pulse
 from pennylane import fourier
 from pennylane.gradients import metric_tensor, adjoint_metric_tensor
 from pennylane import gradients  # pylint:disable=wrong-import-order
-from pennylane.drawer import draw, draw_mpl
+from pennylane.drawer import draw, draw_mpl, draw_tikz
 
 from pennylane.io import (
     from_pyquil,
